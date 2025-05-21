@@ -14,7 +14,7 @@ const Form = () => {
   const { data: session } = useSession()
 
   const params = useSearchParams()
-  let callbackUrl = params.get('callbackUrl') || 'http://kitoblarstoreapp.vercel.app/'
+  let callbackUrl = params.get('callbackUrl') || 'https://kitoblar-hu8i.vercel.app/'
   const router = useRouter()
 
   const {

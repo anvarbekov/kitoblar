@@ -12,8 +12,8 @@ const arvo = Arvo({   weight: ['400', '700'],
   display: 'swap', });
 
 export const metadata: Metadata = {
-  title: 'TI Market',
-  description: "Zamonaviy online kiyim do'koni",
+  title: 'KITOBLAR',
+  description: "Zamonaviy online kitoblar do'koni",
 }
 
 export default function RootLayout({

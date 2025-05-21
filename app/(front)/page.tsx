@@ -8,7 +8,7 @@ import { convertDocToObj } from '@/lib/utils'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: process.env.NEXT_PUBLIC_APP_NAME || 'TI Market',
+  title: process.env.NEXT_PUBLIC_APP_NAME || "Kitoblar online do'koni",
   description:
     process.env.NEXT_PUBLIC_APP_DESC ||
     'Nextjs, Server components, Next auth, daisyui, zustand',

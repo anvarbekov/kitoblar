@@ -18,7 +18,7 @@ const Form = () => {
 
   const params = useSearchParams()
   const router = useRouter()
-  let callbackUrl = params.get('callbackUrl') || 'https://kitoblar-hu8i.vercel.app/'
+  let callbackUrl = params.get('callbackUrl') || 'https://kitoblar-woad.vercel.app/'
   const {
     register,
     handleSubmit,

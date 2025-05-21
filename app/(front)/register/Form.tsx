@@ -18,7 +18,7 @@ const Form = () => {
 
   const params = useSearchParams()
   const router = useRouter()
-  let callbackUrl = params.get('callbackUrl') || 'https://timarket.vercel.app/'
+  let callbackUrl = params.get('callbackUrl') || 'http://kitoblarstoreapp.vercel.app/'
   const {
     register,
     handleSubmit,
